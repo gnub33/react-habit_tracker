@@ -21,7 +21,7 @@ export default function Button({ variant = "primary", className, ...props }: But
 function getVariantStyles(variant: Variant) {
     switch (variant){
         case "primary":
-            return "bg-violet-600 hover:bg-violet-500"
+            return "bg-teal-600 hover:bg-teal-500"
         case "secondary":
             return "bg-zinc-600 hover:bg-zinc-500 text-zinc-400"
         case "ghost-destructive":
